@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2e8b57;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.location-info h1 {
+    color: #2e8b57;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+#address-input {
+    padding: 8px;
+}
+
+#search-button, .continue-button {
+    background-color: #000; 
+    color: #fff; 
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#map {
+    height: 300px;
+    margin-top: 20px;
+}
